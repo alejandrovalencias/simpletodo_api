@@ -5,6 +5,8 @@ define('DATA_PATH', realpath(dirname(__FILE__) . '/data'));
 //include our models
 include_once 'models/TodoItem.php';
 
+/*http://localhost/simpletodo_api/?controller=todo&action=create&title=test%20title&description=test%20description&due_date=12/08/2011&username=nikko&userpass=test1234*/
+
 //wrap the whole thing in a try-catch block to catch any wayward exceptions!
 try {
     //get all of the parameters in the POST/GET request
